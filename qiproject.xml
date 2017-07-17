@@ -1,0 +1,3 @@
+<project name="al_sound_grabber">
+  <depends buildtime="true" runtime="true" names="libnaoqi" />
+</project>
