@@ -2,7 +2,7 @@
 
 ## Installation
 * Clone `al_sound_grabber` in your qibuild workspace:    
-  $ git clone https://github.com/lagadic/al_sound_grabber.git   
+  `$ git clone https://github.com/lagadic/al_sound_grabber.git `  
 * Configure project:   
   `$ configure --release -c  toolchain_2_4 `   
 * Go in the build folder and `make`
