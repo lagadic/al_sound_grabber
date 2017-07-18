@@ -14,3 +14,7 @@ Ubuntu 16.04 : you have to use the toolchain 2.5 (2.4 not working). Working with
 
   $ cd ~/romeo/cpp/workspace/romeo_sound_processing/build-toolchain_2_4-release
   $ ./sdk/bin/al_sound_grabber --pip $PEPPER_IP --pport 9559
+
+
+# TODO:
+* Build with crosstoolchain to run on the robot
