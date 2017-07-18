@@ -1,4 +1,3 @@
-# Copyright (C) 2010 Aldebaran Robotics
 
 cmake_minimum_required(VERSION 2.6.4 FATAL_ERROR)
 project(al_sound_grabber)
@@ -21,5 +20,8 @@ else()
   qi_create_lib(al_sound_grabber SHARED ${_srcs} SUBFOLDER naoqi)
 endif()
 
+set_source_files_properties(main.cpp PROPERTIES COMPILE_FLAGS "-Wno-deprecated-declarations")
+set_source_files_properties(alsoundprocessing.cpp PROPERTIES COMPILE_FLAGS "-Wno-deprecated-declarations")
 
 qi_use_lib(al_sound_grabber ALCOMMON ALPROXIES ALAUDIO)
+
